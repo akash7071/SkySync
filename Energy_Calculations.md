@@ -4,6 +4,7 @@
 3) Worst case average current consumption has been assumed for the SoC based on the previous currents measured for IoT course projects. This was more realistic than using datasheet numbers.
 4) Currently we also assume that the measurement cycle repeats indefinitely. 
 
+---
 ### **SoC**
 
 EM2-Wakeup->Measure Data->Transfer Data->EM2
