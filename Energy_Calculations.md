@@ -1,5 +1,6 @@
 1) As of now it is assumed that all sensors are measured once in 10minutes. This assumption is just to get a rough idea of energy consumption.
-2) For the actual implementation different sensors might be measured at different intervals. It makes more sense to measure Temp/Pressure/Humidity and UV more frequently compared to AQI. TBD based on the final application. 
+2) For the actual implementation different sensors might be measured at different intervals. It makes more sense to measure Temp/Pressure/Humidity and UV more frequently compared to AQI. TBD based on the final application.
+3) Worst case average current consumption has been assumed for the SoC based on the previous currents measured for IoT course projects. This was more realistic than using datasheet numbers.
 
 ### **SoC**
 
