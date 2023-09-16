@@ -25,7 +25,7 @@ Weighted Average of Current = **0.965mA**, at 3.3V
 Weighted Average Power = **3.1845mW**
 
 ---
-### BME280
+### BME280 Humidity, Temperature, Pressure
 In weather monitoring mode.
 
 | State         | Current (mA) | Power |Weight |
@@ -41,7 +41,7 @@ Weighted Average Current = **0.01437mA**, at 3.3V
 Weighted Average Power = **0.0474mW**
 
 ---
-### ENS160
+### ENS160 AQI, eCO2, TVOC
 | State         | Current (mA) | Power |Weight |
 |-------------------|-------|-------| ------------|
 | Deep Sleep  |   0.01  | 18 uW | 0.7  |
@@ -54,7 +54,7 @@ Weighted Average Current = **8.7mA**, at 1.8V
 Weighted Average Power = **15.66mW**
 
 ---
-### AS7331
+### AS7331  UV Index
 
 | State         | Current (mA) | Power | Weight |
 |-------------------|-------|-------| ------------|
