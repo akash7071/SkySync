@@ -1,5 +1,3 @@
-Here's the comparison table for EFR32MG22, EFR32BG22, and EFR32MG24:
-
 | Features/Categories                                               | EFR32MG22                         | EFR32BG22                         | EFR32MG24                         |
 |-------------------------------------------------------------------|----------------------------------|----------------------------------|----------------------------------|
 | Processor                                                         | 76.8 MHz ARM Cortex®-M33         | 76.8 MHz ARM Cortex®-M33         | 78 MHz ARM Cortex®-M33           |
@@ -21,4 +19,3 @@ Here's the comparison table for EFR32MG22, EFR32BG22, and EFR32MG24:
 | Temperature Range                                                 | -40 °C to 125 °C                 | -40 °C to 125 °C                 | -40 °C to 125 °C                 |
 | Packages                                                          | QFN40, QFN32, TQFN32             | QFN40, QFN32, TQFN32             | QFN40, QFN48                     |
 
-Note: This table is a simplified version and does not capture all of the features of each chipset. It's meant to provide an overview, but further details from the provided feature lists should be considered when making a decision.
