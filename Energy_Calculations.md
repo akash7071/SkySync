@@ -47,6 +47,7 @@ Weighted Average Power = **0.0474mW**
 | Active           | 29  | 52.2 mW | 0.3  |
 
 The sensor needs 3 minutes to warm up, considering one measurement every 10minutes
+As of now we are assuming that this sensor will be powered at 1.8V using an LDO. 
 
 Weighted Average Current = **8.7mA**, at 1.8V
 Weighted Average Power = **15.66mW**
