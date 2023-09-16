@@ -18,7 +18,7 @@ The average currents for EM2 and EM0 have been referred from IoT project numbers
 Weighted Average of Current = **0.965mA**, at 3.3V
 Weighted Average Power = **3.1845mW**
 
-
+---
 ### BME280
 In weather monitoring mode.
 
