@@ -34,6 +34,7 @@ Considering one data measurement every 10 minutes.
 Weighted Average Current = **0.01437mA**, at 3.3V
 Weighted Average Power = **0.0474mW**
 
+---
 ### ENS160
 | State         | Current (mA) | Power |Weight |
 |-------------------|-------|-------| ------------|
@@ -45,6 +46,7 @@ The sensor needs 3 minutes to warm up, considering one measurement every 10minut
 Weighted Average Current = **8.7mA**, at 1.8V
 Weighted Average Power = **15.66mW**
 
+---
 ### AS7331
 
 | State         | Current (mA) | Power | Weight |
