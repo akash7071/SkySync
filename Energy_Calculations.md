@@ -1,3 +1,6 @@
+1) As of now it is assumed that all sensors are measured once in 10minutes. This assumption is just to get a rough idea of energy consumption.
+2) For the actual implementation different sensors might be measured at different intervals. It makes more sense to measure Temp/Pressure/Humidity and UV more frequently compared to AQI. TBD based on the final application. 
+
 ### **SoC**
 
 EM2-Wakeup->Measure Data->Transfer Data->EM2
