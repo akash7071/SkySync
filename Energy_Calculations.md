@@ -69,7 +69,7 @@ Weighted Average Power = **0.13233mW**
 ---
 ### Combined Average Current and Power
 | Device         | Avg Current (mA) | Voltage (V) | Avg Power (mW) |
-|-------------------|-------------| ------------|
+|-------------------|-----|--------| ------------|
 | EFR32 BLE SoC  |   0.965  | 3.3 | 3.1845 |
 | BME280           | 0.0143  | 3.3 | 0.0474 |
 | AS7331           | 0.401  | 3.3 | 0.1323 mW |
