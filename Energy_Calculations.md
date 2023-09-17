@@ -1,4 +1,12 @@
-### Assumptions
+
+### Usecase Model & Assumptions
+
+Every sensor data point is sampled every X minutes, data is processed and sent over BLE to the Central Device. 
+For this calculation we have assumed X to be **10 minutes**.
+
+_This usecase model will be further developed as we develop the features further to determine optimal sampling rates and user inputs. 
+_
+
 1) As of now it is assumed that all sensors are measured once in 10minutes. This assumption is just to get a rough idea of energy consumption.
 2) For the actual implementation different sensors might be measured at different intervals. It makes more sense to measure Temp/Pressure/Humidity and UV more frequently compared to AQI. TBD based on the final application.
 3) Worst case average current consumption has been assumed for the SoC based on the previous currents measured for IoT course projects. This was more realistic than using datasheet numbers.
