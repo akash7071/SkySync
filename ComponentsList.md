@@ -11,6 +11,6 @@
 |BME280 Temp, Pressure, Humidity| []()  |  |    | [Datasheet]()    ||
 |ENS160 AQI| []()  |  |    | [Datasheet]()    ||
 |AS7331 UV| []()  |  |    | [Datasheet]()    ||
-|Si1133 UV| []()  |  |    | [Datasheet]()    ||
+|Si1133 UV| [SI1133-AA00-GMR](https://www.digikey.com/en/products/detail/silicon-labs/SI1133-AA00-GMR/5725927)  | 4 |  UV Sensor Backup  | [Datasheet](https://www.silabs.com/documents/public/data-sheets/Si1133.pdf)    |18.45|
 |Resistor 5.1k 0603| []()  |  |    | [Datasheet]()    ||
 |JST Micro Connector| [SM02B-SRSS-TB](https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM02B-SRSS-TB/926708)  | 4 |  Battery Connector  | [Datasheet](https://www.jst-mfg.com/product/pdf/eng/eSH.pdf)    |2.04|
