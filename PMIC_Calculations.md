@@ -1,3 +1,18 @@
+###Overview of PMIC IC working 
+
+**Boost Charger Power Source:** The main boost charger in the system is powered from the boost output known as VSTOR. It activates when the VSTOR voltage rises above a certain threshold, VSTOR_CHGEN, which is typically 1.8 volts. This threshold is important because it allows the boost charger to start working when, for example, a partially discharged battery is connected to VBAT.
+
+**Harvesting Energy from Low Voltage Sources:** The boost charger is designed to extract power from low voltage output sources like TEGs (Thermoelectric Generators) or single/dual-cell solar panels. It can work with input voltages as low as VIN(DC), which has a minimum of 100 millivolts.
+
+**Cold Start Circuit:** When the system starts with VSTOR and VBAT both below 100 millivolts (e.g., during a cold start), the cold start circuit requires at least VIN(CS), typically 600 millivolts, to charge VSTOR up to 1.8 volts.
+
+**Maximum Power Point Tracking (MPPT):** The bq25570 incorporates a programmable MPPT sampling network to optimize power transfer into the device. We can control the fraction of open circuit voltage that is sampled and held using VOC_SAMP.
+VOC_SAMP can be pulled high (80%) or low (50%) or set using external resistors. The sampled voltage is maintained via internal circuitry and an external capacitor (CREF) connected to the VREF_SAMP pin.
+
+**MPPT for Solar Panels:** Solar panels often have a maximum power point (MPP) that corresponds to 80% of their open circuit voltage. By connecting VOC_SAMP to VSTOR, we can set the MPPT threshold to 80%. The IC then regulates the voltage on the solar cell to ensure that the VIN_DC voltage doesn't drop below 80% of the solar panel's open circuit voltage.
+
+---
+
 ### Inductor Selection
 
 **Boost Charger Inductor Selection**
