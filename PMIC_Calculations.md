@@ -10,7 +10,7 @@ The buck converter internal control circuitry is designed to control the switchi
 
 ---
 
-### Capacitor  Selection
+### Capacitors  Selection
 
 **VREF_SAMP Capacitance**
 
@@ -30,4 +30,8 @@ The selection of the output capacitor is influenced by transient response behavi
 
 **Capacitance on VSTOR or VBAT**
 
-https://www.ti.com/tool/download/SLUC484
+---
+
+### Resitors  Selection
+
+Verified the calculations using tool : https://www.ti.com/tool/download/SLUC484
