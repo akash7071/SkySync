@@ -1,4 +1,4 @@
-###Overview of PMIC IC working 
+### Overview of PMIC IC working 
 
 **Boost Charger Power Source:** The main boost charger in the system is powered from the boost output known as VSTOR. It activates when the VSTOR voltage rises above a certain threshold, VSTOR_CHGEN, which is typically 1.8 volts. This threshold is important because it allows the boost charger to start working when, for example, a partially discharged battery is connected to VBAT.
 
