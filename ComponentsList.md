@@ -10,7 +10,7 @@
 |LDO| []()  |  |    | [Datasheet]()    ||
 |USBC| [USB4125-GF-A](https://www.digikey.com/en/products/detail/gct/USB4125-GF-A/13547388)  | 4 |  USB Power  | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/USB4125%20-%20Product%20Drawing.pdf)    |2.68|
 |Crystal 38.4Mhz| []()  |  |    | [Datasheet]()    ||
-|BME280 Temp, Pressure, Humidity| [BME280](https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306)  | THP Sensor |  4  | [Datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf)    ||
+|BME280 Temp, Pressure, Humidity| [BME280](https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306)  | 4 |  THP Sensor  | [Datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf)    ||
 |ENS160 AQI| [ENS160-BGLM](https://www.digikey.com/en/products/detail/sciosense/ENS160-BGLM/16129832)  | 4 |  AQI Sensor  | [Datasheet](https://www.sciosense.com/wp-content/uploads/documents/SC-001224-DS-9-ENS160-Datasheet.pdf)    ||
 |AS7331 UV| []()  |  |    | [Datasheet]()    ||
 |LCD Display| [LS013B7DH03](https://www.digikey.com/en/products/detail/sharp-microelectronics/ls013b7dh03/5300387)  | 3  |  Display   | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/929/LS013B7DH03_Spec.pdf)    ||
