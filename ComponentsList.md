@@ -13,6 +13,7 @@
 |BME280 Temp, Pressure, Humidity| [BME280](https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306)  | THP Sensor |  4  | [Datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf)    ||
 |ENS160 AQI| [ENS160-BGLM](https://www.digikey.com/en/products/detail/sciosense/ENS160-BGLM/16129832)  | 4 |  AQI Sensor  | [Datasheet](https://www.sciosense.com/wp-content/uploads/documents/SC-001224-DS-9-ENS160-Datasheet.pdf)    ||
 |AS7331 UV| []()  |  |    | [Datasheet]()    ||
+|LCD Display| [LS013B7DH03](https://www.digikey.com/en/products/detail/sharp-microelectronics/ls013b7dh03/5300387)  | 3  |  Display   | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/929/LS013B7DH03_Spec.pdf)    ||
 |Si1133 UV| [SI1133-AA00-GMR](https://www.digikey.com/en/products/detail/silicon-labs/SI1133-AA00-GMR/5725927)  | 4 |  UV Sensor Backup  | [Datasheet](https://www.silabs.com/documents/public/data-sheets/Si1133.pdf)    ||
 |Resistor 5.1k 0603| []()  |  |    | [Datasheet]()    ||
 |Resistor 499Ohm 0.5% 0603| [MCT0603PD4990DP500](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT0603PD4990DP500/7245003)  | 12 | Battery Capacitor Sensor | [Datasheet](https://www.vishay.com/docs/28916/mcxhp.pdf)    ||
