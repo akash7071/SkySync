@@ -50,3 +50,8 @@ The selection of the output capacitor is influenced by transient response behavi
 ### Resitors  Selection
 
 Verified the calculations using tool : https://www.ti.com/tool/download/SLUC484
+
+
+
+![image](https://github.com/neohere97/SkySync/assets/112549892/70e0c5c0-7e13-4d99-8732-2ca07180a540)
+
