@@ -53,5 +53,5 @@ Verified the calculations using tool : https://www.ti.com/tool/download/SLUC484
 
 
 
-![image](https://github.com/neohere97/SkySync/assets/112549892/70e0c5c0-7e13-4d99-8732-2ca07180a540)
+<img width="816" alt="image" src="https://github.com/neohere97/SkySync/assets/112549892/cb91a062-49ed-41df-a1fd-a56d6630f9d5">
 
