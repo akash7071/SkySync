@@ -26,26 +26,37 @@ include:
 sdk: {id: gecko_sdk, version: 4.3.2}
 toolchain_settings: []
 component:
+- {id: connect_debug_print}
+- {id: memlcd_usart}
 - {id: bluetooth_feature_gatt_server}
+- {id: si1133_driver}
 - {id: bluetooth_feature_sm}
 - {id: bluetooth_feature_legacy_advertiser}
 - {id: mpu}
+- {id: iostream_usart_core}
 - {id: gatt_configuration}
 - {id: gatt_service_device_information}
 - {id: bluetooth_stack}
+- {id: gpiointerrupt}
+- {id: dmd_memlcd}
 - {id: rail_util_pti}
 - {id: bluetooth_feature_gatt}
+- {id: emlib_i2c}
+- {id: glib}
 - {id: bluetooth_feature_legacy_scanner}
-- {id: app_log}
 - {id: bt_post_build}
 - {id: bluetooth_feature_connection}
-- instance: [inst]
+- instance: [VCOM]
   id: iostream_usart
 - {id: EFR32BG22C224F512GM40}
 - {id: bluetooth_feature_system}
+- {id: emlib_letimer}
+- instance: [I2CSPM]
+  id: i2cspm
 - {id: component_catalog}
 - {id: bootloader_interface}
 - {id: app_assert}
+- {id: ls013b7dh03}
 other_file:
 - {path: image/readme_img0.png}
 - {path: image/readme_img1.png}

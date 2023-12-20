@@ -88,7 +88,7 @@ bool sl_power_manager_sleep_on_isr_exit(void)
     sleep = true;
   }
 
-  answer = sl_iostream_usart_inst_sleep_on_isr_exit();
+  answer = sl_iostream_usart_VCOM_sleep_on_isr_exit();
   if (answer == SL_POWER_MANAGER_WAKEUP) {
     force_wakeup = true;
   } else if (answer == SL_POWER_MANAGER_SLEEP) {

@@ -74,6 +74,22 @@
 // [TIMER4]$
 
 // $[USART0]
+// USART0 CLK on PC02
+#ifndef USART0_CLK_PORT                         
+#define USART0_CLK_PORT                          gpioPortC
+#endif
+#ifndef USART0_CLK_PIN                          
+#define USART0_CLK_PIN                           2
+#endif
+
+// USART0 TX on PC00
+#ifndef USART0_TX_PORT                          
+#define USART0_TX_PORT                           gpioPortC
+#endif
+#ifndef USART0_TX_PIN                           
+#define USART0_TX_PIN                            0
+#endif
+
 // [USART0]$
 
 // $[USART1]
@@ -108,6 +124,22 @@
 // [IADC0]$
 
 // $[I2C0]
+// I2C0 SCL on PD03
+#ifndef I2C0_SCL_PORT                           
+#define I2C0_SCL_PORT                            gpioPortD
+#endif
+#ifndef I2C0_SCL_PIN                            
+#define I2C0_SCL_PIN                             3
+#endif
+
+// I2C0 SDA on PD02
+#ifndef I2C0_SDA_PORT                           
+#define I2C0_SDA_PORT                            gpioPortD
+#endif
+#ifndef I2C0_SDA_PIN                            
+#define I2C0_SDA_PIN                             2
+#endif
+
 // [I2C0]$
 
 // $[EUART0]

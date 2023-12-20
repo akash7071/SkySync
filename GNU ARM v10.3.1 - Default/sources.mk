@@ -18,15 +18,19 @@ C_DEPS :=
 SUBDIRS := \
 . \
 autogen \
-gecko_sdk_4.3.2/app/common/util/app_log \
 gecko_sdk_4.3.2/platform/Device/SiliconLabs/EFR32BG22/Source \
 gecko_sdk_4.3.2/platform/bootloader/api \
 gecko_sdk_4.3.2/platform/bootloader/app_properties \
 gecko_sdk_4.3.2/platform/common/src \
 gecko_sdk_4.3.2/platform/common/toolchain/src \
+gecko_sdk_4.3.2/platform/driver/i2cspm/src \
 gecko_sdk_4.3.2/platform/emdrv/dmadrv/src \
+gecko_sdk_4.3.2/platform/emdrv/gpiointerrupt/src \
 gecko_sdk_4.3.2/platform/emdrv/nvm3/src \
 gecko_sdk_4.3.2/platform/emlib/src \
+gecko_sdk_4.3.2/platform/middleware/glib/dmd/display \
+gecko_sdk_4.3.2/platform/middleware/glib/fonts \
+gecko_sdk_4.3.2/platform/middleware/glib/glib \
 gecko_sdk_4.3.2/platform/radio/rail_lib/plugin/pa-conversions \
 gecko_sdk_4.3.2/platform/radio/rail_lib/plugin/rail_util_power_manager_init \
 gecko_sdk_4.3.2/platform/radio/rail_lib/plugin/rail_util_pti \
@@ -41,7 +45,11 @@ gecko_sdk_4.3.2/platform/service/mpu/src \
 gecko_sdk_4.3.2/platform/service/power_manager/src \
 gecko_sdk_4.3.2/platform/service/sleeptimer/src \
 gecko_sdk_4.3.2/platform/service/system/src \
+gecko_sdk_4.3.2/platform/service/udelay/src \
 gecko_sdk_4.3.2/protocol/bluetooth/src \
 gecko_sdk_4.3.2/util/silicon_labs/silabs_core/memory_manager \
 gecko_sdk_4.3.2/util/third_party/mbedtls/library \
+gecko_sdk_4.3.2/util/third_party/printf \
+gecko_sdk_4.3.2/util/third_party/printf/src \
+src \
 

@@ -13,9 +13,9 @@ extern "C" {
 #endif
 
 
-extern sl_iostream_t *sl_iostream_inst_handle;
-extern sl_iostream_uart_t *sl_iostream_uart_inst_handle;
-extern sl_iostream_instance_info_t sl_iostream_instance_inst_info;
+extern sl_iostream_t *sl_iostream_VCOM_handle;
+extern sl_iostream_uart_t *sl_iostream_uart_VCOM_handle;
+extern sl_iostream_instance_info_t sl_iostream_instance_VCOM_info;
 
 
 // Initialize only iostream usart instance(s)
@@ -23,7 +23,7 @@ void sl_iostream_usart_init_instances(void);
 
 #if defined(SL_CATALOG_POWER_MANAGER_PRESENT)
 
-sl_power_manager_on_isr_exit_t sl_iostream_usart_inst_sleep_on_isr_exit(void);
+sl_power_manager_on_isr_exit_t sl_iostream_usart_VCOM_sleep_on_isr_exit(void);
 
 #endif
 

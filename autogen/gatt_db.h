@@ -20,6 +20,14 @@ extern const sli_bt_gattdb_t gattdb;
 #define gattdb_hardware_revision_string       20
 #define gattdb_firmware_revision_string       22
 #define gattdb_system_id                      24
+#define gattdb_temperature                    27
+#define gattdb_humidity                       30
+#define gattdb_pressure                       33
+#define gattdb_lux                            36
+#define gattdb_uvi                            39
+#define gattdb_tvoc                           42
+#define gattdb_eco2                           45
+#define gattdb_aqi                            48
 
 
 #endif // __GATT_DB_H
